@@ -5,8 +5,8 @@ import DocumentMeta from 'react-document-meta';
 import { TopImage } from 'components/TopImage';
 
 const metaData = {
-  title: 'Redux Easy Boilerplate',
-  description: 'Start you project easy and fast with modern tools',
+  title: 'friendly-finder',
+  description: 'friendly-finder',
   canonical: 'http://example.com/path/to/page',
   meta: {
     charset: 'utf-8',
