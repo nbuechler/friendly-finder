@@ -41,7 +41,7 @@ $ npm install
 $ npm start
 ```
 Runs the project in development mode with hot-reloading of `src` folder.
-Open your browser at [http://localhost:3000](http://localhost:3000).
+Open your browser at [http://localhost:3002](http://localhost:3002).
 
 ### Try
 ```
