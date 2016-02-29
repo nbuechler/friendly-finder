@@ -89,6 +89,7 @@
     "webpack-merge": "^0.7.3"
   },
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "jquery": "^2.2.0",
     "react": "^0.14.6",
     "react-redux": "^4.0.6",
