@@ -1,96 +1,92 @@
 # friendly-finder
-finds friends and other friendly fun ideas
+Displaying studious information and analytics
+
+##
+##Notes:
+TODO: A neo4j database connection exists in an inceptor. And, make it render data in a an overall analytical and useful manner.
+
+##
+Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
+##
+
+GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Foundation, Inc. http://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 
-=========================
 
-Inital clone from : Redux Easy Boilerplate
-=========================
+#CREDITS to others sources:
+react-hot-boilerplate (https://github.com/gaearon/react-hot-boilerplate)
+Redux docs -- http://rackt.github.io/redux/docs/advanced/ExampleRedditAPI.html
 
-![http://anorudes.github.io/redux-easy-boilerplate/](https://raw.githubusercontent.com/anorudes/redux-easy-boilerplate/569905d1aabc33ce385b1895984141764d364b54/gh/browser.png)
+The MIT License (MIT)
 
-## Table of Contents
+Copyright (c) 2014 Dan Abramov
 
-- [About](#about)
-- [Installation](#installation)
-- [Development](#development)
-- [Build](#build--buildproduction)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## About
-- [React 0.14.2](https://github.com/facebook/react)
-- [Redux 3.0.4](https://github.com/gaearon/redux)
-- [React Router 2.0.0-rc4](https://github.com/rackt/react-router)
-- [Babel 6](https://github.com/babel/babel)
-- [Bootstrap-loader](https://github.com/shakacode/bootstrap-loader) (configurable with .bootstraprc)
-- Sass modules ([sass-loader](https://github.com/jtangelder/sass-loader) [css-loader](https://github.com/webpack/css-loader) [style-loader](https://github.com/webpack/style-loader))
-- [react transform](https://github.com/gaearon/react-transform)
-- [redux-logger](https://github.com/fcomb/redux-logger)
-- [react-document-meta](https://github.com/kodyl/react-document-meta)
-- [redux-form](https://github.com/erikras/redux-form)
-- [redux-simple-router](https://github.com/jlongster/redux-simple-router)
-- [karma](https://github.com/karma-runner/karma)
-- [mocha](https://github.com/mochajs/mocha)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Installation
-```
-$ npm install
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## Development
-```
-$ npm start
-```
-Runs the project in development mode with hot-reloading of `src` folder.
-Open your browser at [http://localhost:3002](http://localhost:3002).
+#Below this line is the readme files from other repositories for reference.
 
-### Try
-```
-$ rm -rf node_modules
-$ npm i
-$ npm start
-```
 
-## Clean
-```
-$ npm run clean
-```
-Using rimraf clean the `dist` folder, which is the target of the `build`
 
-## Build & build:production
-```
-$ npm run build
-```
-Builds the app into the 'dist' folder for deployment
-```
-$ npm run build:production
-```
-clean the `dist` folder and rebuilds the app for deployment
-### Production
-To run your server in production simply place the `index.html` and `dist` folder into
-your `web root`.
+react-hot-boilerplate (https://github.com/gaearon/react-hot-boilerplate)
+=====================
 
-In development mode the app uses `hashHistory` (e.g /#/home?_k=x928123) which
-keeps track of your currently location on and the state of the page. It is adviced
-for production to use `browserHistory` instead of `hashHistory`
+The minimal dev environment to enable live-editing React components.
 
-To make this change edit `src/index.js`
-```
-// before change
-...
-import { Router, Redirect, hashHistory as history } from 'react-router';
-...
-
-// after change
-...
-import { Router, Redirect, browserHistory as history } from 'react-router';
-...
+### Usage
 
 ```
-
-the use of history push api requires that all your requests point to index.html
-since react-router is keeping track of the navigation (e.g this can be done with `.htaccess` file at the web root or with `nginx` configuration)
-
-## Run karma
+npm install
+npm start
+open http://localhost:3000
 ```
-$ npm test
+
+Now edit `src/App.js`.  
+Your changes will appear without reloading the browser like in [this video](http://vimeo.com/100010922).
+
+### Linting
+
+This boilerplate project includes React-friendly ESLint configuration.
+
 ```
+npm run lint
+```
+
+### Using `0.0.0.0` as Host
+
+You may want to change the host in `server.js` and `webpack.config.js` from `localhost` to `0.0.0.0` to allow access from same WiFi network. This is not enabled by default because it is reported to cause problems on Windows. This may also be useful if you're using a VM.
+
+### Missing Features
+
+This boilerplate is purposefully simple to show the minimal configuration for React Hot Loader. For a real project, you'll want to add a separate config for production with hot reloading disabled and minification enabled. You'll also want to add a router, styles and maybe combine dev server with an existing server. This is out of scope of this boilerplate, but you may want to look into [other starter kits](https://github.com/gaearon/react-hot-loader/blob/master/docs/README.md#starter-kits).
+
+### Dependencies
+
+* React
+* Webpack
+* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+* [babel-loader](https://github.com/babel/babel-loader)
+* [react-hot-loader](https://github.com/gaearon/react-hot-loader)
+
+### Resources
+
+* [Demo video](http://vimeo.com/100010922)
+* [react-hot-loader on Github](https://github.com/gaearon/react-hot-loader)
+* [Integrating JSX live reload into your workflow](http://gaearon.github.io/react-hot-loader/getstarted/)
+* [Troubleshooting guide](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
+* Ping dan_abramov on Twitter or #reactjs IRC
