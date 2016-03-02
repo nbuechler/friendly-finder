@@ -1,9 +1,6 @@
 # friendly-finder
-Displaying studious information and analytics
+Displaying friend connections and shared info
 
-##
-##Notes:
-TODO: A neo4j database connection exists in an inceptor. And, make it render data in a an overall analytical and useful manner.
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
