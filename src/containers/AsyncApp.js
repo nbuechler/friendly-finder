@@ -91,7 +91,7 @@ class AsyncApp extends Component {
     return (
       <div>
         <Navbar className="navbar-inverse">
-          <NavBrand><Link to="/">studous-display</Link></NavBrand>
+          <NavBrand><Link to="/">friendly-finder</Link></NavBrand>
           {navOptions}
           {loginButton}
         </Navbar>
