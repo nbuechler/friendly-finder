@@ -48,7 +48,7 @@ class Login extends Component {
           localStorage.setItem('credentials', data._id);
           localStorage.setItem('focusedMonth', now.getMonth());
           localStorage.setItem('focusedYear', now.getYear());
-          window.location.href = 'http://' + ip + ':3002/#/logDisplay';
+          window.location.href = 'http://' + ip + ':3002/#/friendFinder';
         } else if (data.customCode == 4031) {
           self.setState({showError: true});
           self.setState({message: data.errors[0].msg});

@@ -1,7 +1,7 @@
 {
   "name": "friendly-finder",
-  "version": "0.2.2",
-  "description": "ReactJS display for analytics",
+  "version": "0.2.1",
+  "description": "ReactJS display for finding",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"

@@ -74,12 +74,9 @@ class AsyncApp extends Component {
      } else {
        navOptions = (<Nav>
                       <NavDropdown title="Perspectives" id="basic-nav-dropdown">
-                       <li header className='dropdown-header' style={{textAlign: 'center'}}>Choose a perspective</li>
+                       <li header className='dropdown-header' style={{textAlign: 'center'}}>Choose a finder</li>
                        <MenuItem divider />
-                       <li><Link to="/logDisplay">Log Perspective</Link></li>
-                       <li><Link to="/experienceDisplay">Experience Perspective</Link></li>
-                       <li><Link to="/activityDisplay">Activitiy Perspective</Link></li>
-                       <li><Link to="/reflectionDisplay">Reflection Perspective</Link></li>
+                       <li><Link to="/friendFinder">Friend Finder</Link></li>
                      </NavDropdown>
                    </Nav>)
        loginButton = <Nav right>
