@@ -9,10 +9,7 @@ import  Home  from './Home/Home';
 import  Signup  from './Signup/Signup';
 import  Login  from './Login/Login';
 import  Logout  from './Logout/Logout';
-import  LogDisplay  from './LogDisplay/LogDisplay';
-import  ExperienceDisplay  from './ExperienceDisplay/ExperienceDisplay';
-import  ActivityDisplay  from './ActivityDisplay/ActivityDisplay';
-import  ReflectionDisplay  from './ReflectionDisplay/ReflectionDisplay';
+import  FriendFinder  from './FriendFinder/FriendFinder';
 
 const store = configureStore();
 
@@ -35,10 +32,7 @@ export default class Root extends Component {
               <Route path="/signup" component={Signup}/>
               <Route path="/login" component={Login}/>
               <Route path="/logout" component={Logout}/>
-              <Route path="/logDisplay" component={LogDisplay}/>
-              <Route path="/experienceDisplay" component={ExperienceDisplay}/>
-              <Route path="/activityDisplay" component={ActivityDisplay}/>
-              <Route path="/reflectionDisplay" component={ReflectionDisplay}/>
+              <Route path="/friendFinder" component={FriendFinder}/>
             </Route>
           </Router>
         }
