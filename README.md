@@ -1,6 +1,9 @@
 # friendly-finder
 Displaying friend connections and shared info
 
+## Notes:
+-This project probably will not have much done with it
+-But it's a vertical slice of something important
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
