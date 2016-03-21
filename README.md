@@ -1,5 +1,5 @@
 # friendly-finder
-Displaying friend connections and shared info
+Displaying friend connections and shared info!!
 
 ## Notes:
 -This project probably will not have much done with it
