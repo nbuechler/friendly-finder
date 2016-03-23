@@ -2,8 +2,9 @@
 Displaying friend connections and shared info!!
 
 ## Notes:
--This project probably will not have much done with it
+-For some time, this project probably will not have much done with it
 -But it's a vertical slice of something important
+-And additionally, it is something important for a BETA+ feature set
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
