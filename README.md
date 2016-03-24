@@ -1,6 +1,9 @@
 # friendly-finder
 Displaying friend connections and shared info!!
 
+# Leveraging
+This leverages (not yet, but plan for) social networks to read in other people who use this app so that people can have a more enriched view of how their views relate to others. Moreover, the ability to share will always be 'opt-in' and the user will have to authorize friends they want to share with. While this may hinder the sharing process, it is meant to maintain people's dignity and trust. Afterall, we're talking about sharing introspection and reflection with one another.
+
 ## Notes:
 -For some time, this project probably will not have much done with it
 -But it's a vertical slice of something important
