@@ -10,6 +10,7 @@ This leverages (not yet, but plan for) social networks to read in other people w
 -And additionally, it is something important for a BETA+ feature set
 -But, this means that it won't be completed for a while.
 -I'll probably add notes occasionaly over time
+-I don't want this to be a social network, but I want it to extend other social networks.
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
