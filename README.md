@@ -9,6 +9,7 @@ This leverages (not yet, but plan for) social networks to read in other people w
 -But it's a vertical slice of something important
 -And additionally, it is something important for a BETA+ feature set
 -But, this means that it won't be completed for a while.
+-I'll probably add notes occasionaly over time
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
