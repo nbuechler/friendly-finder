@@ -11,6 +11,8 @@ This leverages (not yet, but plan for) social networks to read in other people w
 -But, this means that it won't be completed for a while.
 -I'll probably add notes occasionaly over time
 -I don't want this to be a social network, but I want it to extend other social networks.
+-The more I think about this, in a slow daily way, the more I consider that this should also be something that kindly applauds the user for connecting inwardly and outwardly. The friendly finder is the outwardly way. (Extrospection)
+
 
 ##
 Please consider sharing this software as 'copylefted' as I would appreciate respecting this license:
